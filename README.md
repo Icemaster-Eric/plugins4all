@@ -12,7 +12,7 @@ pip install plugins4all
 
 ## Usage
 ```python
-from plugins4all import generate_instructions, get_plugin_response
+from plugins4all.plugins4all import generate_instructions, get_plugin_response
 
 # get instructions for a plugin - this can be easily inserted into a prompt
 instructions = generate_instructions("https://example-plugin.com/.well-known/ai-plugin.json")
